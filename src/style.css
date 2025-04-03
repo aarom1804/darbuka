@@ -13,10 +13,32 @@ body {
 .tittle p{
   margin: 0;
   font-family: "Berkshire Swash", serif;
-  color: white;
   font-size: 2rem;
   color: yellow;
 }
 #principal{
   font-size: 5rem;
+}
+.sound{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.z, .x, .c, .v ,.b{
+  display: flex;
+  font-family: "Berkshire Swash", serif;
+  font-size: 4rem;
+  color: yellow;
+}
+
+.z, .c, .b{
+  background-image: url(../img/2.webp);
+  background-repeat: no-repeat;
+  
+}
+.x, .v{
+ background-image: url(../img/3.webp);
+ background-repeat: no-repeat;
 }
