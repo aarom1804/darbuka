@@ -20,10 +20,14 @@ body {
   font-size: 5rem;
 }
 .sound{
+  padding: 0;
+  margin: 20px 50px;
+  height: 150px;
+  width: 350px;
   display: flex;
   flex-direction: column;
-  padding: 0;
-  margin: 0;
+  align-items: center;
+  
 }
 
 .z, .x, .c, .v ,.b{
@@ -31,14 +35,18 @@ body {
   font-family: "Berkshire Swash", serif;
   font-size: 4rem;
   color: yellow;
+  border: solid yellow 2px;
+  border-radius: 10px;
 }
 
 .z, .c, .b{
   background-image: url(../img/2.webp);
   background-repeat: no-repeat;
+  background-size: cover;
   
 }
 .x, .v{
  background-image: url(../img/3.webp);
  background-repeat: no-repeat;
+ background-size: cover;
 }
